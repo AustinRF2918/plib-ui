@@ -1,0 +1,60 @@
+mixin prototypicalNavbar(navbarName, navbarStyle)
+  nav(class=["navbar", "navbar-fixed" , navbarStyle])
+     ul.navbar-contents
+        li.button-cluster.pull-xs-left
+            a(class=["nav-btn", "dropdown-toggle"]) Deck 
+              i(class=["fa fa-angle-down fa-1x", "nav-down"])
+            ul.dropdown-contents.dropdown-hidden
+              li.option
+                a(class=["dd-btn"]) Card 1
+              li.option
+                a(class=["dd-btn"]) Card 2
+              li.option
+                a(class=["dd-btn"]) Card 3
+              li.option
+                a(class=["dd-btn"]) Card 4
+            a(class=["nav-btn"]) Activity
+            a(class=["nav-btn"]) Company
+            a(class=["nav-btn"]) Messages
+            a(class=["nav-btn"]) Tools
+        li.mobile-cluster.pull-xs-left
+            a(class=["nav-btn", "manage-toggle"]) Manage 
+              i(class=["fa fa-angle-down fa-1x", "nav-down"])
+            ul.manage-contents.manage-hidden
+              li.option
+                a(class=["dd-btn", "mobile-deck-toggle"]) Deck 
+                  i(class=["fa fa-angle-right fa-1x", "nav-right"])
+              li.option
+                a(class=["dd-btn"]) Activity
+              li.option
+                a(class=["dd-btn"]) Company
+              li.option
+                a(class=["dd-btn"]) Messages
+              li.option
+                a(class=["dd-btn"]) Tools
+            ul.mobile-deck-contents.mobile-deck-hidden
+              li.option
+                a(class=["dd-btn"]) Deck 1 
+              li.option
+                a(class=["dd-btn"]) Deck 2
+              li.option
+                a(class=["dd-btn"]) Deck 3
+              li.option
+                a(class=["dd-btn"]) Deck 4
+              li.option
+                a(class=["dd-btn"]) Deck 5
+        li.brand-cluster.pull-xs-left
+            a(class="navbar-brand")
+              img(class="img-brand" src="img/brand.png")
+        ul.form-cluster.pull-xs-right
+            li.offset-1-abs.navbar-user.pull-xs-right
+               img(class="img-user" src="img/icons/user-image.png")
+            li.offset-1-abs.m-r-2.navbar-search.pull-xs-right
+               img(class="img-search" src="img/icons/dialogue.png")
+            li.offset-3-abs.nav-form-container.pull-xs-right
+              form(class=["nav-form"] role="search")
+                div(class=["form-group"])
+                  input(type=["text"] class=["form-control", "nav-input"] placeholder="search")
+            li.offset-3-abs.nav-mag-container.pull-xs-right
+              i(class=["fa fa-search", "nav-mag"])
+

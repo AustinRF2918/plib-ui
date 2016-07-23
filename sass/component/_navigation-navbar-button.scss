@@ -27,6 +27,13 @@
     padding-top: 19px;
     border-bottom: 2px solid transparent;
 
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;           
+
     transition: border .2s ease-out;
 
     &:hover {
@@ -86,6 +93,14 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;           
+
+
 }
 
 //Search area
@@ -118,8 +133,19 @@
 //Chat area
 .navbar-search {
     img{
-      margin-top: 25px;
-      height: 20px;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none;   
+	-khtml-user-select: none;    
+	-moz-user-select: none;      
+	-ms-user-select: none;       
+	user-select: none;           
+	&:hover {
+	  cursor: pointer;
+	}
+
+
+	margin-top: 25px;
+	height: 20px;
     }
 }
 
@@ -138,6 +164,15 @@
 }
 
 .img-user {
+    cursor: pointer;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;           
+
+
     height: 65px - 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -173,6 +208,14 @@
     border-bottom: 1px solid $palette-5;
 
     li {
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none;   
+	-khtml-user-select: none;    
+	-moz-user-select: none;      
+	-ms-user-select: none;       
+	user-select: none;           
+
+
 	a {
    	  transition-duration: 2.5s;
 	  color: $palette-2;
@@ -221,6 +264,14 @@
     border-bottom: 1px solid $palette-5;
 
     li {
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none;   
+	-khtml-user-select: none;    
+	-moz-user-select: none;      
+	-ms-user-select: none;       
+	user-select: none;           
+
+
 	a {
    	  transition-duration: 2.5s;
 	  color: $palette-2;
@@ -268,6 +319,13 @@
     list-style-type: none;
 
     li {
+
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none;   
+	-khtml-user-select: none;    
+	-moz-user-select: none;      
+	-ms-user-select: none;       
+	user-select: none;           
 	a {
    	  transition-duration: 2.5s;
 	  color: $palette-2;

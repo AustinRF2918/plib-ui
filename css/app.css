@@ -140,6 +140,12 @@
   padding-bottom: 21px;
   padding-top: 19px;
   border-bottom: 2px solid transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: border .2s ease-out; }
   .nav-btn:hover {
     color: #28237f;
@@ -184,7 +190,13 @@
   padding-top: 3px;
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
 
 .nav-form-container {
   position: relative;
@@ -208,8 +220,16 @@
   border: none; }
 
 .navbar-search img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   margin-top: 25px;
   height: 20px; }
+  .navbar-search img:hover {
+    cursor: pointer; }
 
 .img-search {
   height: 45px;
@@ -221,6 +241,13 @@
   height: 35px; }
 
 .img-user {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   height: 45px;
   margin-top: 10px;
   margin-bottom: 10px; }
@@ -248,6 +275,12 @@
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray; }
   .dropdown-contents li {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     width: 100% !important;
     transition-duration: 2s;
     padding-top: 10px;
@@ -286,6 +319,12 @@
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray; }
   .manage-contents li {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     width: 100% !important;
     transition-duration: 2s;
     padding-top: 10px;
@@ -324,6 +363,12 @@
   border-bottom: 1px solid lightgray;
   list-style-type: none; }
   .mobile-deck-contents li {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     width: 100% !important;
     transition-duration: 2s;
     padding-top: 10px;

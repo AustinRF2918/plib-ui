@@ -254,6 +254,7 @@
     border-right: 1px solid $palette-5;
     border-bottom: 1px solid $palette-5;
 
+
     li {
 	-webkit-touch-callout: none; 
 	-webkit-user-select: none;   
@@ -264,8 +265,9 @@
 
 
 	a {
-   	  transition-duration: 2.5s;
-	  color: $palette-2;
+	    width: 100%;
+   	    transition-duration: 2.5s;
+	    color: $palette-2;
 	}
 	width: 100% !important;
         transition-duration: 2s;
@@ -321,7 +323,8 @@
    	  transition-duration: 2.5s;
 	  color: $palette-2;
 	}
-	width: 100% !important;
+
+	min-width: 78px;
         transition-duration: 2s;
 	padding-top: 10px;
 	padding-bottom: 10px;

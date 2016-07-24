@@ -1,7 +1,7 @@
 mixin prototypicalNavbar(navbarName, navbarStyle)
   nav(class=["navbar", "navbar-fixed" , navbarStyle])
      ul.navbar-contents
-        li.button-cluster.pull-xs-left
+        li.button-cluster.pull-xs-left(class=[""])
             a(class=["nav-btn", "dropdown-toggle"]) Deck 
               i(class=["fa fa-angle-down fa-1x", "nav-down"])
             ul.dropdown-contents.dropdown-hidden
@@ -21,8 +21,8 @@ mixin prototypicalNavbar(navbarName, navbarStyle)
             a(class=["nav-btn", "manage-toggle"]) Manage 
               i(class=["fa fa-angle-down fa-1x", "nav-down"])
             ul.manage-contents.manage-hidden
-              li.option
-                a(class=["dd-btn", "mobile-deck-toggle"]) Deck 
+              li.option(class="mobile-deck-toggle")
+                a(class=["dd-btn"]) Deck 
                   i(class=["fa fa-angle-right fa-1x", "nav-right"])
               li.option
                 a(class=["dd-btn"]) Activity

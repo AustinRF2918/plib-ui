@@ -325,6 +325,7 @@
     padding-bottom: 10px;
     display: block; }
     .manage-contents li a {
+      width: 100%;
       transition-duration: 2.5s;
       color: #4c5360; }
     .manage-contents li:hover {
@@ -363,7 +364,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 100% !important;
+    min-width: 78px;
     transition-duration: 2s;
     padding-top: 10px;
     padding-bottom: 10px;

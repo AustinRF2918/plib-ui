@@ -1,0 +1,133 @@
+.left-side-container {
+    @media screen and (min-width: 768px) {
+	display: inline-block;
+	width: 31%;
+	vertical-align: top;
+	position: relative;
+	left: -2%;
+    }
+
+    @media screen and (max-width: 767px) {
+	display: block;
+	width: 100%;
+	* {
+	    text-align: center;
+	}
+    }
+
+}
+
+.right-side-container {
+    @media screen and (min-width: 768px) {
+      display: inline-block;
+      vertical-align: top;
+      width: 64.8%;
+    }
+
+    @media screen and (max-width: 767px) {
+	display: block;
+	width: 100%;
+
+	.overview-header{
+	    text-align: center;
+	}
+    }
+}
+
+.about-content-container {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.d-list-header {
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+.d-list-item {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.overview-header {
+    @media screen and (max-width: 767px) {
+	padding-bottom: 15px !important;
+    }
+
+    font-weight: 600;
+}
+
+.information-overview {
+    font-size: 14px;
+}
+
+.meta-information {
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+    color: #bababa;
+}
+
+.team-item-name {
+    color: #6d6d6d;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.team-item-title {
+    color: lighten(#6d6d6d, 15%);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.team-item-image {
+    max-height: 80px;
+}
+
+.team-member-information {
+    padding-left: 0px;
+}
+
+.team-member-entity {
+    @media screen and (max-width: 767px) {
+	padding-top: 10px;
+
+	* {
+	    text-align: center;
+	}
+
+	img {
+	    position: relative;
+	    left: 48%;
+	    transform: translateX(-48%);
+	}
+    }
+}
+
+.material-container-overview {
+    background: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 30px 10px 5px 5px;
+
+    @media screen and (min-width: 940px) {
+        border-top: 4px solid #2962FF;
+    }
+
+    @media screen and (max-width: 939px) {
+	box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0);
+        padding: 20px 0px 20px 0px;
+	margin-left: 0vw !important;
+	margin-top: 25px;
+    };
+}
+
+html, body {
+    overflow-x: hidden;
+}
